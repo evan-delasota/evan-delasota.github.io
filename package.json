@@ -12,6 +12,9 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-watch": "^4.3.11",
     "js-yaml": "^4.1.0",
-    "run-sequence": "^2.1.0"
+    "run-sequence": "^2.1.0",
+    "lodash.template": ">=4.5.0",
+    "is-svg": ">=4.2.2",
+    "node-notifier": ">=8.0.1"
   }
 }
