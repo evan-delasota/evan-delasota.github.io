@@ -77,4 +77,6 @@ function submitForm(e, formName) {
             //...
         }
     });
+
+    form.reset();
 }
