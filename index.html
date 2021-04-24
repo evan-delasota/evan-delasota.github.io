@@ -507,21 +507,22 @@
             <p class="contacts__form-title">Or just send me an email here_</p>
             <form class="js-form">
               <div class="form-group">
-                <input class="form-field js-field-name" type="text" placeholder="Your name" required>
+                <input class="form-field js-field-name" type="text" name="name" placeholder="Your name" required>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
               <div class="form-group">
-                <input class="form-field js-field-email" type="email"  placeholder="Your e-mail" required>
+                <input class="form-field js-field-email" type="email"  name="_replyto" placeholder="Your e-mail" required>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
               <div class="form-group">
-                <textarea class="form-field js-field-message" placeholder="Type the message here" required></textarea>
+                <textarea class="form-field js-field-message" type="text" name="message" placeholder="Type the message here" required></textarea>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
               <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+              <p id="my-form-status"></p>
             </form>
           </div>
           <div class="footer">
